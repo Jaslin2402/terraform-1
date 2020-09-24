@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "techlanders-statefile"
+    bucket  = "jaslin-s3"
     key  = "terraform/state"
     region = "us-east-1"
 #   access_key = "XXXXXXXXXXXXXXXXXXXXXX"
